@@ -1,1 +1,16 @@
-{\n  "name": "OpusClip",\n  "version": "1.0.0",\n  "description": "A project for OpusClip",\n  "main": "src/index.js",\n  "scripts": {\n    "test": "echo \"Error: no test specified\" && exit 1"\n  },\n  "dependencies": {\n    "express": "^4.17.1",\n    "pg": "^8.7.1",\n    "ffmpeg-static": "^4.4.0",\n    "ws": "^8.5.0"\n  }\n}
+{
+  "name": "OpusClip",
+  "version": "1.0.0",
+  "description": "A project for OpusClip",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.4.0",
+    "pg": "^8.7.1",
+    "ws": "^8.5.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
